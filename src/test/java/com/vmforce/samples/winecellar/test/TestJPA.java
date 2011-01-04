@@ -1,4 +1,4 @@
-package com.vmforce.samples;
+package com.vmforce.samples.winecellar.test;
 
 
 import static org.junit.Assert.assertEquals;
@@ -20,7 +20,7 @@ import org.junit.Test;
 import com.vmforce.samples.winecellar.model.Producer;
 import com.vmforce.samples.winecellar.model.Wine;
 
-public class JPATests {
+public class TestJPA {
 	
 	private EntityManager em;
 	
