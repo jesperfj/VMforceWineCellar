@@ -131,6 +131,11 @@
 	</dependency>
 	<dependency>
 		<groupId>com.force.sdk</groupId>
+		<artifactId>force-springsecurity</artifactId>
+		<version>20.0.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.force.sdk</groupId>
 		<artifactId>force-connector</artifactId>
 		<version>20.0.0</version>
 	</dependency>
