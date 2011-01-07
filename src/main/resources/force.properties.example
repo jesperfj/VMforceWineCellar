@@ -7,3 +7,8 @@ force.userName = Your_DE_org_username
 
 force.password = Your_DE_org_password
 
+# To enable security with single sign-on to your Force.com org, create an oauth consumer in the org
+# and set the key and secret here.
+
+# force.consumerKey = 
+# force.consumerSecret = 
