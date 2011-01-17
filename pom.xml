@@ -12,6 +12,7 @@
 		<org.springframework-version>3.0.4.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.6.9</org.aspectj-version>
 		<org.slf4j-version>1.5.10</org.slf4j-version>
+		<force.config.dir>${basedir}/src/main/resources</force.config.dir>
 	</properties>
 	<dependencies>
 		<!-- Spring -->
@@ -216,7 +217,7 @@
 	</pluginRepositories>
 	<build>
 	    <filters>
-	        <filter>${basedir}/src/main/resources/force.properties</filter>
+	        <filter>${force.config.dir}/force.properties</filter>
 	    </filters>
 	    
 	    <resources>
@@ -229,9 +230,15 @@
 	      </resource>
 	      <resource>
 	        <directory>${basedir}/src/main/resources</directory>
+	        <filtering>false</filtering>
+	        <excludes>
+	          <exclude>**/persistence.xml</exclude>
+	        </excludes>
+	      </resource>
+	      <resource>
+	        <directory>${force.config.dir}</directory>
 	        <includes>
 	          <include>force.properties</include>
-	          <include>log4j.xml</include>
 	        </includes>
 	      </resource>
 	    </resources>
