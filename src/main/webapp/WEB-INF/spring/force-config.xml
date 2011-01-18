@@ -15,7 +15,7 @@
         http://www.springframework.org/schema/security
         http://www.springframework.org/schema/security/spring-security-3.0.xsd
         http://www.salesforce.com/schema/springsecurity
-        http://www.salesforce.com/schema/springsecurity/force-springsecurity-1.0.xsd">
+        https://github.com/forcedotcom/vmforce/raw/master/schema/force-springsecurity-1.0.xsd">
         
 
     <context:component-scan base-package="com.vmforce.samples.winecellar" />

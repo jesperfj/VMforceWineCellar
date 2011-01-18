@@ -208,6 +208,11 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>com.force.maven.snapshot</id>
+			<name>Force.com Maven Snapshot Repo</name>
+			<url>http://repo.t.salesforce.com/archiva/repository/snapshots</url>
+		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
