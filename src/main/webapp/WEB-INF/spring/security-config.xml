@@ -66,11 +66,11 @@
 	    <security:custom-filter position="FORM_LOGIN_FILTER" ref="authenticationFilter"/>
 	    <security:custom-filter position="LOGOUT_FILTER" ref="logoutFilter"/>
 
-	    <!-- Uncomment this to require authentication for the whole app -->
+	    <!-- Uncomment this to require authentication for the whole app 
 
 	    <security:intercept-url pattern="/**" access="ROLE_USER" />
 
-		<!--  -->
+		-->
 		
 	</security:http>
 
